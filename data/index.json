@@ -1,0 +1,35 @@
+{
+    "footer": {
+        "description": "IngenioMap es la mejor plataforma para aprender ingeniería de software. Conecta, aprende y crece en tu carrera.",
+        "social": [
+            {
+                "alt": "icono de facebook",
+                "icon": "/icons/footer-facebook.svg",
+                "url": "https://facebook.com/"
+            },
+            {
+                "alt": "icono de instagram",
+                "icon": "/icons/footer-instagram.svg",
+                "url": "https://instagram.com/"
+            },
+            {
+                "alt": "icono de linkedin",
+                "icon": "/icons/footer-linkedin.svg",
+                "url": "https://linkedin.com/"
+            },
+            {
+                "alt": "icono de twitter",
+                "icon": "/icons/footer-twitter.svg",
+                "url": "https://facebook.com/"
+            }
+        ],
+        "contacto": {
+            "email": "contacto@ingeniomap.com",
+            "telefono": "940466753",
+            "direccion": "Calle de algún lugar"
+        }
+    },
+    "title": "IngenioMap",
+    "description": "Perro ...",
+    "content": "Lorem ipsum..."
+}
