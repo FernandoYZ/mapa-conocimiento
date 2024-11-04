@@ -11,7 +11,7 @@
         </div>
     </div>
 </nav>
-<ModalLoginModal :isVisible="isModalVisible" @close="toggleModal(false)" />
+<ModalLogin :isVisible="isModalVisible" @close="toggleModal(false)" />
 </section>
 </template>
 
