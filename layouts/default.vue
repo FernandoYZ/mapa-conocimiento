@@ -1,9 +1,10 @@
 <template>
-    <div class="flex items-start">
+    <div>
         <div>
-            <SidebarMenu />
+            <!-- <MenuNavbar /> -->
         </div>
         <slot />
+        <FooterLayout />
     </div>
 </template>
 
