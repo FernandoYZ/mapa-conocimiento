@@ -1,9 +1,7 @@
-import IndexData from '../data/index.json'
-
 export const obtenerDatos = async (source: string | any): Promise<any> => {
     try {
         if (typeof source === 'string') {
-            const response = await fetch(source, { cache: 'no-store' });
+            const response = await fetch(source);
             if (!response.ok) {
                 throw new Error(`Error en la carga de datos desde ${source}`);
             }
@@ -16,8 +14,3 @@ export const obtenerDatos = async (source: string | any): Promise<any> => {
     }
 };
 
-export const DatosIndex = async (): Promise<any> => {
-    return new Promise((resolve) => {
-      resolve(IndexData);
-    });
-};
