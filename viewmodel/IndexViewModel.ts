@@ -1,6 +1,5 @@
 import { IndexModel } from '@/models/IndexModel';
 import { obtenerDatos } from '@/services/DataService';
-import { DatosIndex } from '@/services/DataService';
 import IndexData from '../data/index.json'
 
 export class IndexViewModel {
@@ -14,7 +13,6 @@ export class IndexViewModel {
 
         try {
             const data = await obtenerDatos(IndexData);
-            // const data = await DatosIndex();
             this.model = new IndexModel(data);
         } catch (error) {
             this.error = 'Error al cargar datos';
