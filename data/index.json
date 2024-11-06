@@ -1,4 +1,29 @@
 {
+    "title": "IngenioMap",
+    "description": "Perro ...",
+    "content": "Lorem ipsum...",
+    "header": {
+        "title": "Mapa de Conocimiento",
+        "subtitle": "Ingeniería del Software"
+    },
+    "welcomeMessage": "Bienvenido al Mapa de Conocimiento Interactivo de Ingeniería del Software. Esta herramienta te permitirá explorar y comprender los conceptos clave de la disciplina de una manera visual e intuitiva.",
+    "featureCards": [
+        {
+            "icon": "BookOpenIcon",
+            "title": "Aprendizaje Estructurado",
+            "description": "Navega por temas y subtemas interconectados para una comprensión integral."
+        },
+        {
+            "icon": "SearchIcon",
+            "title": "Búsqueda Avanzada",
+            "description": "Encuentra rápidamente los conceptos que necesitas con nuestro sistema de búsqueda."
+        },
+        {
+            "icon": "BookmarkIcon",
+            "title": "Marcadores Personalizados",
+            "description": "Guarda tus nodos favoritos para acceder fácilmente en el futuro."
+        }
+    ],
     "footer": {
         "description": "IngenioMap es la mejor plataforma para aprender ingeniería de software. Conecta, aprende y crece en tu carrera.",
         "social": [
@@ -28,8 +53,5 @@
             "telefono": "940466753",
             "direccion": "Calle de algún lugar"
         }
-    },
-    "title": "IngenioMap",
-    "description": "Perro ...",
-    "content": "Lorem ipsum..."
+    }
 }
