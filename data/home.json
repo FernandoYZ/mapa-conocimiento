@@ -1,0 +1,47 @@
+[
+    {
+      "title": "Normas, Estándares y Herramientas para la Calidad del Software",
+      "description": "Navega por normas internacionales y herramientas de aseguramiento de calidad.",
+      "image": "https://www.lonmark.org/wp-content/uploads/2020/02/Business-Towers-157315357_4368x2912-scaled.jpeg", 
+      "nodeNumber": "Nodo 1",
+      "temas": [
+        "Normas internacionales (ISO/IEC)",
+        "Estándares de calidad (IEEE, CMMI)",
+        "Herramientas de aseguramiento de calidad (JIRA, SonarQube)"
+      ]
+    },
+    {
+      "title": "Verificación y Validación de la Documentación del Análisis de Requerimientos",
+      "description": "Explora técnicas de validación y revisión de requerimientos.",
+      "image": "https://www.lonmark.org/wp-content/uploads/2020/02/Business-Towers-157315357_4368x2912-scaled.jpeg", 
+      "nodeNumber": "Nodo 2",
+      "temas": [
+        "Técnicas de validación",
+        "Revisión de requerimientos",
+        "Trazabilidad de requerimientos"
+      ]
+    },
+    {
+      "title": "Verificación y Validación de la Documentación del Diseño del Sistema",
+      "description": "Aprende sobre la evaluación del diseño y pruebas de diseño.",
+      "image": "https://www.lonmark.org/wp-content/uploads/2020/02/Business-Towers-157315357_4368x2912-scaled.jpeg", 
+      "nodeNumber": "Nodo 3",
+      "temas": [
+        "Evaluación del diseño de sistemas",
+        "Revisión arquitectónica",
+        "Pruebas de diseño"
+      ]
+    },
+    {
+      "title": "Factores Críticos de Éxito para el Desarrollo del Software",
+      "description": "Conoce sobre gestión de proyectos y habilidades de liderazgo.",
+      "image": "https://www.lonmark.org/wp-content/uploads/2020/02/Business-Towers-157315357_4368x2912-scaled.jpeg", 
+      "nodeNumber": "Nodo 4",
+      "temas": [
+        "Gestión de proyectos de software",
+        "Planificación y control",
+        "Habilidades de liderazgo"
+      ]
+    }
+]
+  
