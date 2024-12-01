@@ -1,4 +1,4 @@
-export const obtenerDatos = async (source: string | any): Promise<any> => {
+export const obtenerDatos = async <T>(source: string | T): Promise<T> => {
     try {
         if (typeof source === 'string') {
             const response = await fetch(source);
@@ -13,4 +13,3 @@ export const obtenerDatos = async (source: string | any): Promise<any> => {
         throw error;
     }
 };
-
