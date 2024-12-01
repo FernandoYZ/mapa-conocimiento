@@ -1,69 +1,65 @@
 <template>
-  <footer class="w-full bg-gradient-to-r from-purple-950 to-neutral-950 text-white">
-    <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-52 py-12">
-      <!-- Redes Sociales -->
-      <nav class="flex justify-center mb-10 space-x-4 py-4">
-        <a
-          v-for="(link, index) in footer.social"
-          :key="index"
-          :href="link.url"
-          :aria-label="link.alt"
-          target="_blank" rel="noopener noreferrer"
-          class="transition transform hover:scale-105 hover:opacity-90"
-        >
-          <img :src="link.icon" :alt="link.alt" class="w-7 h-7" />
-        </a>
-      </nav>
+<div>
+    <footer class="bg-neutral-950 py-12 text-neutral-400 text-sm" role="contentinfo">
+        <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-52">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      <section class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-        <div class="flex flex-col items-center md:items-start mb-8 md:mb-0">
-          <img src="/icons/google.svg" alt="Logo" class="w-40 mb-4 opacity-90" />
-          <p class="text-neutral-400 leading-relaxed max-w-md">
-            {{ footer.description }}
-          </p>
+            <section class="flex flex-col items-center md:items-start">
+                <div class="mb-4">
+                    <a class="logo text-5xl font-semibold text-purple-100" href="" aria-label="Inicio">Learnix</a>
+                </div>
+                <p class="text-sm text-center md:text-left">Learnix es una plataforma de aprendizaje que combina recursos académicos y cursos interactivos en matemáticas, ciencia y tecnología para desarrollar habilidades a través de contenidos prácticos y colaborativos.</p>
+            </section>
+
+            <nav class="flex justify-center" aria-label="Secciones">
+                <div>
+                    <h2 class="font-black mb-4 text-md text-center md:text-left md:text-md uppercase text-purple-700">Secciones</h2>
+                    <ul class="space-y-2 md:text-left text-center">
+                        <li><a href="" class="relative hover:text-white">Inicio</a></li>
+                        <li><a href="" class="relative hover:text-white">¿Quiénes somos?</a></li>
+                        <li><a href="" class="relative hover:text-white">Cursos</a></li>
+                        <li><a href="" class="relative hover:text-white">Temas</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="flex flex-col items-center md:items-start text-center md:text-left" aria-labelledby="contact-heading">
+                <h2 id="contact-heading" class="font-black mb-4 text-md md:text-md uppercase text-purple-700">Contacto</h2>
+                <div class="space-y-5">
+                    <div>
+                        <h3 class="font-semibold mb-2 text-purple-200 opacity-65">Dirección</h3>
+                        <p class="font-base">Urb. Libertad, Calle Las Acacias, Mz. B, Lote 17, San Vicente de Cañete</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2 text-purple-200 opacity-65">Teléfono</h3>
+                        <p class="font-base">+51 940 466 753</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2 text-purple-200 opacity-65">Correo electrónico</h3>
+                        <p class="font-base">
+                            <a href="mailto:fernandozavala266@gmail.com" class="hover:text-white" rel="noopener noreferrer">fernandozavala266@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            </div>
         </div>
-
-        <aside class="text-center md:text-right w-full md:w-auto">
-          <h4 class="text-lg font-semibold mb-4 text-neutral-100">Información de Contacto</h4>
-          <ul class="space-y-2 text-neutral-400">
-            <li>Email: <a :href="'mailto:' + footer.contacto.email" class="hover:text-white underline transition">{{ footer.contacto.email }}</a></li>
-            <li>Teléfono: <a :href="'tel:' + footer.contacto.telefono" class="hover:text-white underline transition">{{ footer.contacto.telefono }}</a></li>
-            <li>Dirección: {{ footer.contacto.direccion }}</li>
-          </ul>
-        </aside>
-      </section>
-
-      <div class="text-center mt-10 text-neutral-500 border-t border-neutral-700 pt-6">
-        <p>© 2024 IngenioMap. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
+    <footer class="bg-black text-neutral-400 py-6" role="contentinfo">
+        <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-52">
+            <p class="text-center md:text-left text-xs">
+                &copy; 2024 Learnix. Todos los derechos reservados.
+                <span>Realizado por </span>
+                <a href="#" class="font-semibold hover:transition-all hover:text-white" rel="noopener noreferrer">IntelligenceQB</a>
+            </p>
+        </div>
+    </footer>
+</div>
 </template>
 
-<script lang="ts">
-import { IndexViewModel } from '@/viewmodel/IndexViewModel';
-import { IndexModel } from '@/models/IndexModel';
-
-export default defineComponent({
-  name: 'Footer',
-  setup() {
-    const viewModel = new IndexViewModel();
-    const footer = reactive<IndexModel['footer']>({
-      description: '',
-      social: [],
-      contacto: { email: '', telefono: '', direccion: '' },
-    });
-
-    const loadData = async () => {
-      await viewModel.loadData();
-      if (viewModel.model) {
-        Object.assign(footer, viewModel.model.footer);
-      }
-    };
-
-    onMounted(loadData);
-
-    return { footer };
-  },
-});
-</script>
+<style>
+.logo {
+    font-family: "Pacifico", serif;
+    font-weight: 200;
+}
+</style>
