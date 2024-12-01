@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <div>
-            <!-- <MenuNavbar /> -->
+    <main class="font-plus-jakarta-sans">
+        <div class="pt-16">
+            <MenuNavbar />
         </div>
         <slot />
         <FooterLayout />
-    </div>
+    </main>
 </template>
 
 <script setup>
