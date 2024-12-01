@@ -1,5 +1,10 @@
 {
   "home": {
+    "title": {
+        "item": "NODO 1:",
+        "nombre":"Normas, Estándares y Herramientas para la",
+        "span": "Calidad del Software"
+    },
     "titulo": "Normas, Estándares y Herramientas para la Calidad del Software",
     "descripcion": "Las normas, estándares y herramientas para la calidad del software son fundamentales para garantizar que los proyectos de desarrollo cumplan con altos estándares de calidad y sean eficientes, seguros y confiables. Este nodo aborda normas internacionales como ISO/IEC, estándares específicos de calidad como IEEE y CMMI, así como herramientas de aseguramiento como JIRA y SonarQube, que facilitan el control y la mejora continua en todas las fases del desarrollo.",
     "imagen": "/images/nodo1/principal1.png"
