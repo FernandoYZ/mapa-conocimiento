@@ -1,0 +1,89 @@
+{
+    "titulo": "Documentación del Análisis de Requerimientos",
+    "descripcion": "Este documento abarca las mejores prácticas, herramientas y elementos esenciales relacionados con el análisis y documentación de requerimientos en proyectos de software.",
+    "categorias": ["Validación de Requerimientos", "Revisión en Desarrollo", "Elementos Esenciales", "Gestión de Documentación"],
+    "primero": {
+        "titulo": "Técnicas de Validación",
+        "descripcion": "Métodos para asegurar que los requerimientos capturados sean correctos, completos y alineados con los objetivos del proyecto.",
+        "detalles": [
+            {
+                "titulo": "Revisión de Pares",
+                "descripcion": "Un proceso colaborativo donde varios analistas o desarrolladores revisan los requerimientos para detectar errores y omisiones.",
+                "citas": ["https://www.iiba.org"]
+            },
+            {
+                "titulo": "Prototipado",
+                "descripcion": "Creación de maquetas o prototipos para validar los requerimientos con los stakeholders.",
+                "citas": ["https://www.axure.com"]
+            },
+            {
+                "titulo": "Casos de Uso",
+                "descripcion": "Técnica para modelar interacciones del sistema con los usuarios finales para validar escenarios y requisitos.",
+                "citas": ["https://www.uml-diagrams.org"]
+            }
+        ]
+    },
+    "segundo": {
+        "titulo": "Técnicas de Revisión en el Desarrollo de Proyectos",
+        "descripcion": "Prácticas utilizadas durante el desarrollo de software para garantizar que los procesos y productos cumplen con los estándares de calidad.",
+        "detalles": [
+            {
+                "titulo": "Revisión Formal",
+                "descripcion": "Sesiones estructuradas donde un equipo evalúa los entregables contra los requerimientos definidos.",
+                "citas": ["https://www.projectmanagement.com"]
+            },
+            {
+                "titulo": "Pruebas de Aceptación",
+                "descripcion": "Validación realizada por los stakeholders para garantizar que el producto cumple con los requisitos.",
+                "citas": ["https://www.perforce.com"]
+            },
+            {
+                "titulo": "Auditorías de Proyecto",
+                "descripcion": "Evaluación independiente del progreso y cumplimiento del proyecto respecto a los objetivos establecidos.",
+                "citas": ["https://www.iso.org"]
+            }
+        ]
+    },
+    "tercero": {
+        "titulo": "Elementos Esenciales en la Revisión de los Requerimientos",
+        "descripcion": "Aspectos clave que deben considerarse al revisar y validar los requerimientos en cualquier proyecto.",
+        "detalles": [
+            {
+                "titulo": "Claridad",
+                "descripcion": "Los requerimientos deben ser precisos, sin ambigüedades y fáciles de entender.",
+                "citas": ["https://www.iiba.org"]
+            },
+            {
+                "titulo": "Completitud",
+                "descripcion": "Asegurar que todos los aspectos del sistema están descritos, incluyendo funcionalidad, rendimiento y restricciones.",
+                "citas": ["https://www.perforce.com"]
+            },
+            {
+                "titulo": "Consistencia",
+                "descripcion": "Verificar que no existan conflictos entre los diferentes requerimientos documentados.",
+                "citas": ["https://www.iso.org"]
+            }
+        ]
+    },
+    "cuarto": {
+        "titulo": "Gestión de Cambios en los Requerimientos",
+        "descripcion": "Procesos y herramientas utilizadas para gestionar cambios en los requerimientos durante el ciclo de vida del proyecto.",
+        "detalles": [
+            {
+                "titulo": "Control de Versiones",
+                "descripcion": "Herramientas como Git o sistemas especializados para rastrear cambios en los documentos de requerimientos.",
+                "citas": ["https://git-scm.com"]
+            },
+            {
+                "titulo": "Impacto del Cambio",
+                "descripcion": "Evaluación de cómo los cambios en los requerimientos afectan al alcance, coste y cronograma del proyecto.",
+                "citas": ["https://www.projectmanagement.com"]
+            },
+            {
+                "titulo": "Priorización de Requerimientos",
+                "descripcion": "Técnicas para decidir qué cambios implementar basándose en el valor, urgencia y riesgos asociados.",
+                "citas": ["https://www.iiba.org"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "titulo": "Métricas y Evaluación de la Calidad del Software",
+    "descripcion": "Este documento explora las métricas clave y métodos para evaluar la calidad del software, proporcionando herramientas y prácticas para mejorar el desarrollo y mantenimiento de proyectos.",
+    "categorias": ["Calidad del Software", "Métricas", "Evaluación", "Mejora Continua"],
+    "primero": {
+        "titulo": "Introducción a las Métricas de Calidad del Software",
+        "descripcion": "Conceptos fundamentales sobre las métricas utilizadas para medir la calidad del software.",
+        "detalles": [
+            {
+                "titulo": "Métricas de Producto",
+                "descripcion": "Evaluan atributos del software como complejidad, líneas de código (LOC) y cobertura de pruebas.",
+                "citas": ["https://www.iso.org", "https://www.sonarqube.org"]
+            },
+            {
+                "titulo": "Métricas de Proceso",
+                "descripcion": "Analizan la eficiencia de los procesos de desarrollo, como tiempo de entrega y defectos encontrados.",
+                "citas": ["https://www.pmi.org"]
+            },
+            {
+                "titulo": "Métricas de Proyecto",
+                "descripcion": "Se enfocan en aspectos como el coste, esfuerzo y cronograma del proyecto.",
+                "citas": ["https://www.projectmanagement.com"]
+            }
+        ]
+    },
+    "segundo": {
+        "titulo": "Modelos para Evaluar la Calidad del Software",
+        "descripcion": "Modelos y marcos reconocidos para evaluar y mejorar la calidad del software.",
+        "detalles": [
+            {
+                "titulo": "ISO/IEC 25010",
+                "descripcion": "Modelo que define ocho características clave de calidad, como funcionalidad, seguridad y mantenibilidad.",
+                "citas": ["https://www.iso.org"]
+            },
+            {
+                "titulo": "CMMI (Capability Maturity Model Integration)",
+                "descripcion": "Modelo para evaluar y mejorar los procesos de desarrollo de software en niveles de madurez.",
+                "citas": ["https://www.cmmiinstitute.com"]
+            },
+            {
+                "titulo": "GQM (Goal Question Metric)",
+                "descripcion": "Enfoque que alinea las métricas con objetivos específicos a través de preguntas clave.",
+                "citas": ["https://www.sei.cmu.edu"]
+            }
+        ]
+    },
+    "tercero": {
+        "titulo": "Herramientas para el Análisis de Métricas",
+        "descripcion": "Tecnologías que permiten recolectar, analizar y visualizar métricas de calidad del software.",
+        "detalles": [
+            {
+                "titulo": "SonarQube",
+                "descripcion": "Herramienta para análisis de código que proporciona métricas sobre calidad, seguridad y mantenibilidad.",
+                "citas": ["https://www.sonarqube.org"]
+            },
+            {
+                "titulo": "Jira Software",
+                "descripcion": "Permite rastrear métricas de progreso y gestión de defectos en proyectos ágiles.",
+                "citas": ["https://www.atlassian.com/software/jira"]
+            },
+            {
+                "titulo": "KPI Dashboard",
+                "descripcion": "Plataformas como Power BI o Tableau para visualizar métricas clave de proyectos.",
+                "citas": ["https://www.microsoft.com", "https://www.tableau.com"]
+            }
+        ]
+    },
+    "cuarto": {
+        "titulo": "Buenas Prácticas para la Evaluación de la Calidad",
+        "descripcion": "Recomendaciones para implementar métricas y evaluaciones de calidad de manera efectiva.",
+        "detalles": [
+            {
+                "titulo": "Definir Objetivos Claros",
+                "descripcion": "Alinear las métricas con los objetivos estratégicos del proyecto y la organización.",
+                "citas": ["https://www.pmi.org"]
+            },
+            {
+                "titulo": "Automatización del Monitoreo",
+                "descripcion": "Usar herramientas para recopilar y analizar métricas en tiempo real.",
+                "citas": ["https://www.jenkins.io"]
+            },
+            {
+                "titulo": "Retroalimentación Continua",
+                "descripcion": "Establecer ciclos de mejora basados en los datos recolectados.",
+                "citas": ["https://www.scrum.org"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "titulo": "Arquitectura de Software y Patrones de Diseño",
+    "descripcion": "Este documento cubre los conceptos clave en la arquitectura de software, incluyendo patrones de diseño que facilitan la creación de sistemas robustos, escalables y mantenibles.",
+    "categorias": ["Arquitectura de Software", "Patrones de Diseño", "Desarrollo Escalable", "Mejores Prácticas"],
+    "primero": {
+        "titulo": "Introducción a la Arquitectura de Software",
+        "descripcion": "Conceptos fundamentales y prácticas para diseñar y organizar la arquitectura de sistemas de software.",
+        "detalles": [
+            {
+                "titulo": "Arquitectura Monolítica",
+                "descripcion": "Modelo en el que todas las funciones del sistema se agrupan en una única aplicación, lo que facilita su desarrollo pero dificulta su escalabilidad y mantenimiento.",
+                "citas": ["https://www.microsoft.com", "https://www.oracle.com"]
+            },
+            {
+                "titulo": "Arquitectura de Microservicios",
+                "descripcion": "Enfoque basado en dividir el sistema en pequeños servicios independientes, lo que mejora la escalabilidad, pero introduce complejidad en la gestión de los servicios.",
+                "citas": ["https://www.ibm.com", "https://www.docker.com"]
+            },
+            {
+                "titulo": "Arquitectura Orientada a Servicios (SOA)",
+                "descripcion": "Modelo que organiza los componentes de software como servicios reutilizables y accesibles a través de interfaces estándar.",
+                "citas": ["https://www.soasolutions.com"]
+            }
+        ]
+    },
+    "segundo": {
+        "titulo": "Patrones de Diseño de Software",
+        "descripcion": "Descripción de patrones de diseño que resuelven problemas recurrentes en el desarrollo de software, mejorando la eficiencia y calidad del sistema.",
+        "detalles": [
+            {
+                "titulo": "Patrón MVC (Modelo-Vista-Controlador)",
+                "descripcion": "Divide una aplicación en tres componentes principales: el modelo, la vista y el controlador, lo que mejora la modularidad y la capacidad de mantenimiento.",
+                "citas": ["https://www.patternsproject.org"]
+            },
+            {
+                "titulo": "Patrón Singleton",
+                "descripcion": "Garantiza que una clase tenga solo una instancia y proporcione un punto de acceso global a ella.",
+                "citas": ["https://www.refactoring.guru"]
+            },
+            {
+                "titulo": "Patrón de Fábrica",
+                "descripcion": "Define una interfaz para crear objetos, pero deja que las subclases decidan qué clase instanciar, mejorando la flexibilidad y escalabilidad del sistema.",
+                "citas": ["https://www.uml-diagrams.org"]
+            }
+        ]
+    },
+    "tercero": {
+        "titulo": "Patrones de Arquitectura",
+        "descripcion": "Patrones arquitectónicos que proporcionan soluciones comprobadas para estructurar la arquitectura de sistemas grandes y complejos.",
+        "detalles": [
+            {
+                "titulo": "Arquitectura en Capas",
+                "descripcion": "Organiza el sistema en capas que separan diferentes responsabilidades, como la capa de presentación, la capa de lógica de negocio y la capa de datos.",
+                "citas": ["https://www.iso.org"]
+            },
+            {
+                "titulo": "Arquitectura Cliente-Servidor",
+                "descripcion": "Modelo donde los clientes solicitan servicios a un servidor central que gestiona las operaciones y los datos.",
+                "citas": ["https://www.oracle.com"]
+            },
+            {
+                "titulo": "Arquitectura de Event-Driven",
+                "descripcion": "Modelo que permite que los componentes del sistema reaccionen a eventos que ocurren en el sistema, lo que mejora la flexibilidad y la escalabilidad.",
+                "citas": ["https://www.redhat.com"]
+            }
+        ]
+    },
+    "cuarto": {
+        "titulo": "Buenas Prácticas en la Arquitectura de Software",
+        "descripcion": "Recomendaciones clave para asegurar que la arquitectura del software sea eficiente, flexible y escalable.",
+        "detalles": [
+            {
+                "titulo": "Modularidad",
+                "descripcion": "Dividir el sistema en módulos independientes para mejorar la reutilización y facilitar las actualizaciones.",
+                "citas": ["https://www.semanticscholar.org"]
+            },
+            {
+                "titulo": "Desacoplamiento",
+                "descripcion": "Reducir las dependencias entre componentes para que los cambios en un módulo no afecten a otros, mejorando la mantenibilidad.",
+                "citas": ["https://www.perforce.com"]
+            },
+            {
+                "titulo": "Escalabilidad",
+                "descripcion": "Diseñar sistemas que puedan crecer sin comprometer el rendimiento, utilizando patrones y prácticas como el balanceo de carga y la replicación de servicios.",
+                "citas": ["https://www.aws.amazon.com"]
+            }
+        ]
+    }
+}

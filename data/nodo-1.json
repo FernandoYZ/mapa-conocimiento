@@ -1,0 +1,100 @@
+{
+    "titulo": "Normas, Estándares y Herramientas para la Calidad del Software",
+    "descripcion": "Este documento abarca normas internacionales como ISO/IEC 25010, estándares específicos como IEEE 730, herramientas de aseguramiento como JIRA y SonarQube, y prácticas de documentación, proporcionando un enfoque integral para la calidad del software.",
+    "categorias": ["ISO", "Estándares IEEE", "Modelos de Madurez", "Herramientas de Calidad", "Documentación"],
+    "imagen": "/images/nodo1/principal1.png",
+    "primero": {
+        "titulo": "Normas ISO/IEC",
+        "descripcion": "Las normas ISO/IEC establecen criterios globales para asegurar la calidad de los productos y procesos de software.",
+        "detalles": [
+            {
+                "titulo": "ISO/IEC 25010:2023",
+                "descripcion": "Define ocho características principales de calidad del software y 31 subcaracterísticas, como accesibilidad, modularidad y tolerancia a fallos.",
+                "citas": ["https://quality.arc42.org/articles/iso-25010-update-2023", "https://www.perforce.com"]
+            },
+            {
+                "titulo": "ISO/IEC 12207",
+                "descripcion": "Proporciona un marco para gestionar el ciclo de vida del software, desde la concepción hasta la retirada.",
+                "citas": ["https://thetechnologyvault.com", "https://www.perforce.com"]
+            },
+            {
+                "titulo": "ISO/IEC 25012",
+                "descripcion": "Aborda la calidad de los datos en sistemas de información, evaluando atributos como exactitud, consistencia y actualidad.",
+                "citas": ["https://blog.codacy.com", "https://www.perforce.com"]
+            },
+            {
+                "titulo": "ISO/IEC 27001",
+                "descripcion": "Enfocado en la gestión de seguridad de la información, garantiza que los datos sean protegidos contra accesos no autorizados.",
+                "citas": ["https://www.iso.org"]
+            },
+            {
+                "titulo": "ISO/IEC 15504 (SPICE)",
+                "descripcion": "Establece un marco para evaluar la madurez de los procesos de software en una organización.",
+                "citas": ["https://www.perforce.com"]
+            }
+        ]
+    },
+    "segundo": {
+        "titulo": "Estándares IEEE y Modelos de Madurez",
+        "descripcion": "Los estándares IEEE y modelos como CMMI proporcionan pautas y marcos para la mejora continua de los procesos de desarrollo de software.",
+        "detalles": [
+            {
+                "titulo": "IEEE 730",
+                "descripcion": "Especifica lineamientos para la documentación, verificación y validación de software.",
+                "citas": ["https://www.ieee.org"]
+            },
+            {
+                "titulo": "IEEE 1012",
+                "descripcion": "Define estándares para la planificación y ejecución de actividades de verificación y validación.",
+                "citas": ["https://www.ieee.org"]
+            },
+            {
+                "titulo": "CMMI (Capability Maturity Model Integration)",
+                "descripcion": "Modelo de mejora de procesos diseñado para optimizar las prácticas de desarrollo y garantizar alta calidad en los entregables.",
+                "citas": ["https://www.perforce.com"]
+            }
+        ]
+    },
+    "tercero": {
+        "titulo": "Buenas Prácticas de Documentación",
+        "descripcion": "La documentación adecuada asegura que los procesos y productos de software sean comprensibles, trazables y mantenibles.",
+        "detalles": [
+            {
+                "titulo": "Guía para la Documentación Técnica",
+                "descripcion": "Define las mejores prácticas para crear documentación técnica clara y útil para equipos de desarrollo y usuarios finales.",
+                "citas": ["https://www.techdocs.example"]
+            },
+            {
+                "titulo": "Plantillas IEEE para Documentación",
+                "descripcion": "Proporciona formatos estándar para la creación de documentos como especificaciones de requisitos y manuales de usuario.",
+                "citas": ["https://www.ieee.org"]
+            }
+        ]
+    },
+    "cuarto": {
+        "titulo": "Herramientas de Aseguramiento de Calidad",
+        "descripcion": "Estas herramientas ayudan a gestionar proyectos, analizar código y automatizar pruebas para garantizar la calidad del software.",
+        "detalles": [
+            {
+                "titulo": "JIRA",
+                "descripcion": "Facilita la gestión de proyectos y seguimiento de errores.",
+                "citas": ["https://www.atlassian.com/software/jira"]
+            },
+            {
+                "titulo": "SonarQube",
+                "descripcion": "Realiza análisis de código para detectar vulnerabilidades y malas prácticas.",
+                "citas": ["https://www.sonarqube.org"]
+            },
+            {
+                "titulo": "Selenium",
+                "descripcion": "Herramienta de automatización de pruebas para interfaces web.",
+                "citas": ["https://www.selenium.dev"]
+            },
+            {
+                "titulo": "TestRail",
+                "descripcion": "Administra y rastrea resultados de pruebas para optimizar la validación de software.",
+                "citas": ["https://www.gurock.com/testrail"]
+            }
+        ]
+    }
+}

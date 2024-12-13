@@ -1,0 +1,94 @@
+{
+    "titulo": "Gestión de la Configuración de Software",
+    "descripcion": "Este documento aborda las prácticas, herramientas y estándares clave para gestionar los cambios y configuraciones en proyectos de software, asegurando control y trazabilidad durante todo el ciclo de vida del desarrollo.",
+    "categorias": ["Gestión de Configuración", "Control de Cambios", "Trazabilidad", "Automatización"],
+    "primero": {
+        "titulo": "Conceptos Básicos de la Gestión de Configuración",
+        "descripcion": "Aspectos fundamentales para comprender cómo gestionar y controlar las configuraciones de software.",
+        "detalles": [
+            {
+                "titulo": "Control de Versiones",
+                "descripcion": "Gestión de múltiples versiones de un software utilizando herramientas como Git y Subversion.",
+                "citas": ["https://git-scm.com", "https://subversion.apache.org"]
+            },
+            {
+                "titulo": "Identificación de Configuraciones",
+                "descripcion": "Definir y documentar los elementos de configuración, como código fuente, documentación y binarios.",
+                "citas": ["https://www.iso.org"]
+            },
+            {
+                "titulo": "Auditorías de Configuración",
+                "descripcion": "Verificar que los elementos configurados cumplan con los estándares y requisitos establecidos.",
+                "citas": ["https://www.perforce.com"]
+            }
+        ]
+    },
+    "segundo": {
+        "titulo": "Procesos de Control de Cambios",
+        "descripcion": "Prácticas para manejar solicitudes de cambio y evaluar su impacto en el proyecto.",
+        "detalles": [
+            {
+                "titulo": "Gestión de Solicitudes de Cambio (RFC)",
+                "descripcion": "Documentar y analizar cada solicitud de cambio para decidir su viabilidad.",
+                "citas": ["https://www.pmi.org"]
+            },
+            {
+                "titulo": "Aprobaciones y Priorizaciones",
+                "descripcion": "Establecer un comité para evaluar y priorizar los cambios según el impacto y los objetivos del proyecto.",
+                "citas": ["https://www.projectmanagement.com"]
+            },
+            {
+                "titulo": "Planificación del Cambio",
+                "descripcion": "Crear un plan detallado para implementar los cambios aceptados de manera controlada.",
+                "citas": ["https://www.iso.org"]
+            }
+        ]
+    },
+    "tercero": {
+        "titulo": "Herramientas para la Gestión de Configuración",
+        "descripcion": "Tecnologías y plataformas que ayudan a gestionar configuraciones y cambios en proyectos de software.",
+        "detalles": [
+            {
+                "titulo": "Git",
+                "descripcion": "Herramienta de control de versiones distribuido ampliamente utilizada para gestionar el código fuente.",
+                "citas": ["https://git-scm.com"]
+            },
+            {
+                "titulo": "Jenkins",
+                "descripcion": "Servidor de integración continua que automatiza procesos de construcción y despliegue.",
+                "citas": ["https://www.jenkins.io"]
+            },
+            {
+                "titulo": "Puppet",
+                "descripcion": "Herramienta para la automatización de configuraciones de infraestructura.",
+                "citas": ["https://puppet.com"]
+            },
+            {
+                "titulo": "Docker",
+                "descripcion": "Tecnología de contenedores que permite empaquetar aplicaciones y sus dependencias de manera uniforme.",
+                "citas": ["https://www.docker.com"]
+            }
+        ]
+    },
+    "cuarto": {
+        "titulo": "Buenas Prácticas en la Gestión de Configuración",
+        "descripcion": "Recomendaciones para garantizar la efectividad de las actividades de configuración.",
+        "detalles": [
+            {
+                "titulo": "Automatización de Procesos",
+                "descripcion": "Usar herramientas para automatizar tareas repetitivas como la integración y despliegue continuo.",
+                "citas": ["https://www.jenkins.io"]
+            },
+            {
+                "titulo": "Trazabilidad Completa",
+                "descripcion": "Mantener registros detallados de cambios y versiones para facilitar auditorías y resolución de problemas.",
+                "citas": ["https://www.perforce.com"]
+            },
+            {
+                "titulo": "Estandarización de Procesos",
+                "descripcion": "Definir procesos consistentes para la gestión de configuración en toda la organización.",
+                "citas": ["https://www.iso.org"]
+            }
+        ]
+    }
+}
