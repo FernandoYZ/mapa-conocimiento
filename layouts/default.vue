@@ -7,6 +7,3 @@
         <FooterLayout />
     </main>
 </template>
-
-<script setup>
-</script>
